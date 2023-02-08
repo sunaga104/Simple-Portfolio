@@ -2,7 +2,7 @@
 <html lang="ja">
 <head>
   <meta charset="UTF-8">
-  <title>SQL抽出�?ール</title>
+  <title>SQL抽出ツール</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
   <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900" rel="stylesheet">
   <link href="https://cdn.jsdelivr.net/npm/@mdi/font@6.x/css/materialdesignicons.min.css" rel="stylesheet">
@@ -15,16 +15,12 @@
 </head>
 <body>
   <body>
-    <header>
-      <h1>My Portfolio</h1>
-    </header>
-    <a href="./index.html">HOME</a>
     <div id="app">
         <v-container v-cloak>
             <v-row>
               <v-col cols="2"></v-col>
               <v-col cols="6">
-                <h1 class="text-center" >SQL抽出�?ール</h1>
+                <h1 class="text-center" >SQL抽出ツール</h1>
               </v-col>
               <v-col cols="2"></v-col>
             </v-row>
@@ -32,7 +28,7 @@
               <table>
                 <thead>
                   <tr>
-                    <th>�?ーブル�?</th>
+                    <th>テーブル</th>
                     <th>CRUD</th>
                   </tr>
                 </thead>
@@ -47,13 +43,13 @@
             <v-row>
               <v-col xl cols="2"></v-col>
               <v-col xl cols="6">
-                <p>SQL抽出するプログラ�?を�?�力してください</p>
+                <p>SQL抽出するプログラムを入力してください</p>
               </v-col>
               <v-col xl cols="2"></v-col>
             </v-row>
             <v-textarea
               solo
-              label="ここにプログラ�?を�?�力してください"
+              label="ここにプログラムを入力してください"
               v-model="targetProgram"
             ></v-textarea>
             <v-row>
